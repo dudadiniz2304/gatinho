@@ -1,0 +1,28 @@
+  /* escolher um tamanho de fonte para o h3 e que seja definido como importante*/
+  h3
+  {
+   font-size: 25px  !important;
+    
+  }
+
+  /* Quando passa o mouse em cima do botão mudar a cor de fundo */
+.btn-success:hover
+{
+  background-color: rgb(195, 130, 255);
+  
+}
+
+  canvas {
+	  animation-name: example;/* escolhemos o nome da animação como example */
+	  animation-duration: 4s;/* escolhemos a duração da animação  */
+	  animation-iteration-count: infinite;/* escolhemos por quanto tempo a animação deve repetir */
+  }
+
+/* @keyframes é a palavra-chave usada quando queremos definir uma
+animação. */
+@keyframes example {
+/* sombra que vai indo de uma cor para outra */
+  from {box-shadow: 1px 1px 38px rgb(195, 130, 255);}/*começo*/
+  to {box-shadow: 1px 1px 38px rgb(89, 255, 48);}/*fim*/
+
+}
